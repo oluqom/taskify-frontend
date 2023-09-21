@@ -1,4 +1,5 @@
 export type Logo = {
+  yellowLogoName: string;
   logoName: string;
 };
 

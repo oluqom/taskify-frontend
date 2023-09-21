@@ -7,20 +7,29 @@ const Menu: FC<Menu> = ({ links }: Menu) => {
     <>
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn-ghost btn-circle btn">
+          <label tabIndex={0} className="cursor-pointer">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              width="40"
+              height="16"
+              viewBox="0 0 40 16"
               fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h7"
-              />
+              <g clip-path="url(#clip0_1_16)">
+                <line y1="2" x2="40" y2="2" stroke="#202020" stroke-width="4" />
+                <line
+                  y1="14"
+                  x2="40"
+                  y2="14"
+                  stroke="#202020"
+                  stroke-width="4"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_16">
+                  <rect width="40" height="16" fill="white" />
+                </clipPath>
+              </defs>
             </svg>
           </label>
           <ul
